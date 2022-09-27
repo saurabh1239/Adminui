@@ -1,0 +1,23 @@
+.container {
+    margin: 0 50px;
+    white-space: nowrap;
+    color: white;
+ }
+ 
+ .endBar {
+    display: flex;
+    justify-content: space-evenly;
+    margin : 2rem 6rem;
+    
+ }
+
+
+ 
+ @media screen and (max-width: 768px) {
+  
+   .endBar {
+     display: flex !important;
+     flex-direction: column !important;
+   }
+ }
+ 
